@@ -98,7 +98,7 @@
       "id": "hik8",
       "name": "Basica DS-2CE16D0T-IRPF(C)",
       "price": 20,
-      "image": "images/DS-2CE16D0T-IRPF(C).webp",
+      "image": "images/DS-2CE16D0T-IRPF.webp",
       "dori": {
         "detect": 32,
         "observe": 13,
@@ -110,7 +110,7 @@
       "id": "hik9",
       "name": "Tarjeta sd Western Digital 128gb",
       "price": 20,
-      "image": "images/westerndigital128gb.webp"
+      "image": "images/westerndigital.webp"
       
     }
   ],
