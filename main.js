@@ -43,6 +43,16 @@ function createProductCard(product) {
     `;
 }
 
+function getProductById(id) {
+    for (const category in products) {
+        const product = products[category].find(p => p.id === id);
+        if (product) {
+            return product;
+        }
+    }
+    return null;
+}
+
 function renderProducts() {
     document.getElementById('hikvision-cameras').innerHTML = products.hikvision.map(createProductCard).join('');
     document.getElementById('dahua-cameras').innerHTML = products.dahua.map(createProductCard).join('');
@@ -135,7 +145,7 @@ function updateCart() {
     cartTotal.textContent = `Total: ${total.toFixed(2)}`;
 }
 
-function printToPDF() {
+async function printToPDF() {
     if (Object.keys(cart).length === 0) {
         alert('El carrito está vacío. Agregue productos antes de generar el PDF.');
         return;
@@ -228,8 +238,50 @@ function printToPDF() {
     doc.setFontSize(16);
     doc.text(`${total.toFixed(2)}`, 188, y, { align: 'right' });
     
-    // Footer
+    // Thumbnails
     y += 15;
+    if (y > 220) {
+        doc.addPage();
+        y = 20;
+    }
+    doc.setFontSize(12);
+    doc.setTextColor(0, 0, 0);
+    doc.text('Productos Incluidos:', 20, y);
+    y += 8;
+
+    let x = 20;
+    for (const [id, item] of Object.entries(cart)) {
+        if (!id.startsWith('service-')) {
+            const product = getProductById(id);
+            if (product && product.image) {
+                if (x > 170) { // new line for thumbnails
+                    x = 20;
+                    y += 35;
+                }
+                try {
+                    const img = new Image();
+                    img.src = product.image;
+                    await new Promise(resolve => img.onload = resolve);
+                    
+                    const canvas = document.createElement('canvas');
+                    canvas.width = img.width;
+                    canvas.height = img.height;
+                    const ctx = canvas.getContext('2d');
+                    ctx.drawImage(img, 0, 0);
+                    const dataUrl = canvas.toDataURL('image/jpeg');
+                    
+                    doc.addImage(dataUrl, 'JPEG', x, y, 30, 30);
+                } catch (e) {
+                    console.error("Error adding image to PDF:", e);
+                    doc.text('?', x + 15, y + 15); // Placeholder for failed image
+                }
+                x += 35;
+            }
+        }
+    }
+    y += 35; // space after thumbnails
+
+    // Footer
     if (y > 250) {
         doc.addPage();
         y = 20;
