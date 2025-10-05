@@ -105,6 +105,13 @@
         "recognize": 6,
         "identify": 3.2
       }
+    },
+     {
+      "id": "hik9",
+      "name": "Tarjeta sd Western Digital 128gb",
+      "price": 20,
+      "image": "webp/SD128gb.webp"
+      
     }
   ],
   "dahua": [
