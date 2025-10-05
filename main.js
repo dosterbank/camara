@@ -250,36 +250,57 @@ async function printToPDF() {
     y += 8;
 
     let x = 20;
+    const thumbnailWidth = 30;
+    const thumbnailHeight = 30;
+    const horizontalSpacing = 5;
+    const verticalSpacing = 20; // Space for name
+
     for (const [id, item] of Object.entries(cart)) {
         if (!id.startsWith('service-')) {
             const product = getProductById(id);
             if (product && product.image) {
-                if (x > 170) { // new line for thumbnails
+                if (x + thumbnailWidth > 190) { // new line for thumbnails
                     x = 20;
-                    y += 35;
+                    y += thumbnailHeight + verticalSpacing;
                 }
                 try {
+                    // Add product name
+                    doc.setFontSize(7);
+                    doc.setTextColor(0, 0, 0);
+                    const splitName = doc.splitTextToSize(product.name, thumbnailWidth);
+                    doc.text(splitName, x + thumbnailWidth / 2, y, { align: 'center' });
+
                     const img = new Image();
                     img.src = product.image;
-                    await new Promise(resolve => img.onload = resolve);
+                    await new Promise(resolve => {
+                        img.onload = resolve;
+                        img.onerror = () => {
+                            console.error("Failed to load image:", product.image);
+                            resolve(); // Resolve promise even if image fails to load
+                        };
+                    });
                     
-                    const canvas = document.createElement('canvas');
-                    canvas.width = img.width;
-                    canvas.height = img.height;
-                    const ctx = canvas.getContext('2d');
-                    ctx.drawImage(img, 0, 0);
-                    const dataUrl = canvas.toDataURL('image/jpeg');
-                    
-                    doc.addImage(dataUrl, 'JPEG', x, y, 30, 30);
+                    if (img.complete && img.naturalHeight !== 0) {
+                        const canvas = document.createElement('canvas');
+                        canvas.width = img.width;
+                        canvas.height = img.height;
+                        const ctx = canvas.getContext('2d');
+                        ctx.drawImage(img, 0, 0);
+                        const dataUrl = canvas.toDataURL('image/jpeg');
+                        doc.addImage(dataUrl, 'JPEG', x, y + 8, thumbnailWidth, thumbnailHeight);
+                    } else {
+                         doc.text('?', x + (thumbnailWidth/2), y + 8 + (thumbnailHeight/2)); // Placeholder for failed image
+                    }
+
                 } catch (e) {
                     console.error("Error adding image to PDF:", e);
-                    doc.text('?', x + 15, y + 15); // Placeholder for failed image
+                    doc.text('?', x + (thumbnailWidth/2), y + 8 + (thumbnailHeight/2)); // Placeholder for failed image
                 }
-                x += 35;
+                x += thumbnailWidth + horizontalSpacing;
             }
         }
     }
-    y += 35; // space after thumbnails
+    y += thumbnailHeight + verticalSpacing; // space after thumbnails
 
     // Footer
     if (y > 250) {
