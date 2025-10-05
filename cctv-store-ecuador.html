@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCTV Store Ecuador - Cámaras de Seguridad por Marca</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎥 CCTV Store Ecuador</h1>
+        <p class="subtitle">Cámaras de Seguridad Profesionales por Marca | Equipos y Servicios</p>
+        
+        <div class="main-tabs">
+            <button class="main-tab active" onclick="showMainTab('hikvision-tab')">HIKVISION</button>
+            <button class="main-tab" onclick="showMainTab('dahua-tab')">DAHUA</button>
+            <button class="main-tab" onclick="showMainTab('ezviz-tab')">EZVIZ</button>
+            <button class="main-tab" onclick="showMainTab('imou-tab')">IMOU</button>
+            <button class="main-tab" onclick="showMainTab('equipment-tab')">EQUIPOS</button>
+            <button class="main-tab" onclick="showMainTab('services-tab')">SERVICIOS</button>
+        </div>
+
+        <!-- HIKVISION TAB -->
+        <div id="hikvision-tab" class="tab-content active">
+            <div class="brand-section">
+                <div class="brand-header">
+                    <div class="brand-logo">🔴 HIKVISION</div>
+                    <p style="color: #666;">Líder mundial en soluciones de videovigilancia</p>
+                </div>
+                <div class="products-grid" id="hikvision-cameras"></div>
+            </div>
+        </div>
+
+        <!-- DAHUA TAB -->
+        <div id="dahua-tab" class="tab-content">
+            <div class="brand-section">
+                <div class="brand-header">
+                    <div class="brand-logo">🔵 DAHUA</div>
+                    <p style="color: #666;">Innovación en seguridad con inteligencia artificial</p>
+                </div>
+                <div class="products-grid" id="dahua-cameras"></div>
+            </div>
+        </div>
+
+        <!-- EZVIZ TAB -->
+        <div id="ezviz-tab" class="tab-content">
+            <div class="brand-section">
+                <div class="brand-header">
+                    <div class="brand-logo">🟢 EZVIZ</div>
+                    <p style="color: #666;">Cámaras inteligentes WiFi para hogar y negocio</p>
+                </div>
+                <div class="products-grid" id="ezviz-cameras"></div>
+            </div>
+        </div>
+
+        <!-- IMOU TAB -->
+        <div id="imou-tab" class="tab-content">
+            <div class="brand-section">
+                <div class="brand-header">
+                    <div class="brand-logo">🟣 IMOU</div>
+                    <p style="color: #666;">Soluciones de seguridad inteligente accesibles</p>
+                </div>
+                <div class="products-grid" id="imou-cameras"></div>
+            </div>
+        </div>
+
+        <!-- EQUIPMENT TAB -->
+        <div id="equipment-tab" class="tab-content">
+            <div class="brand-section">
+                <div class="brand-header">
+                    <div class="brand-logo">💾 GRABADORES (DVR/NVR)</div>
+                </div>
+                <div class="products-grid" id="recorders"></div>
+            </div>
+
+            <div class="brand-section" style="margin-top: 30px;">
+                <div class="brand-header">
+                    <div class="brand-logo">🗄️ ALMACENAMIENTO</div>
+                </div>
+                <div class="products-grid" id="storage-devices"></div>
+            </div>
+        </div>
+
+        <!-- SERVICES TAB -->
+        <div id="services-tab" class="tab-content">
+            <h2 style="margin-bottom: 25px; color: #667eea; text-align: center;">🔧 Servicios Profesionales de Instalación</h2>
+            <div class="products-grid">
+                <div class="service-card">
+                    <h3>👷 Mano de Obra - Instalación por Cámara</h3>
+                    <p style="margin-bottom: 15px;">Instalación profesional incluye: montaje, configuración, orientación y pruebas de funcionamiento</p>
+                    <input type="number" id="labor-qty" class="service-input" min="0" value="0" placeholder="Cantidad de cámaras">
+                    <button class="add-btn" onclick="addService('labor')">Agregar - $25.00 c/u</button>
+                </div>
+
+                <div class="service-card">
+                    <h3>📡 Cable Cat5E Exterior (Cobre Puro)</h3>
+                    <p style="margin-bottom: 15px;">Incluye: cable exterior, ponchado certificado, conectores RJ45 y conversores POE a analógico (si es necesario)</p>
+                    <input type="number" id="cat5e-qty" class="service-input" min="0" value="0" placeholder="Metros de cable">
+                    <button class="add-btn" onclick="addService('cat5e')">Agregar - $1.00/metro</button>
+                </div>
+
+                <div class="service-card">
+                    <h3>📡 Cable Cat6E Exterior (Cobre Puro)</h3>
+                    <p style="margin-bottom: 15px;">Incluye: cable exterior Cat6E, ponchado certificado, conectores RJ45 y conversores POE a analógico (si es necesario)</p>
+                    <input type="number" id="cat6e-qty" class="service-input" min="0" value="0" placeholder="Metros de cable">
+                    <button class="add-btn" onclick="addService('cat6e')">Agregar - $1.25/metro</button>
+                </div>
+
+                <div class="service-card">
+                    <h3>🔨 Reparación de Cableado por Cámara</h3>
+                    <p style="margin-bottom: 15px;">Reparación de conexión sin reemplazo de cable (incluye ponchado, limpieza de conectores y pruebas). Si requiere cable nuevo, agregar los ítems de arriba</p>
+                    <input type="number" id="repair-qty" class="service-input" min="0" value="0" placeholder="Cantidad de reparaciones">
+                    <button class="add-btn" onclick="addService('repair')">Agregar - $15.00 c/u</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-section">
+            <div class="cart-title">
+                🛒 Carrito de Compras
+            </div>
+            <div id="cart-items"></div>
+            <div class="cart-total" id="cart-total">Total: $0.00</div>
+            <button class="print-btn" onclick="printToPDF()">📄 Imprimir Cotización PDF</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
