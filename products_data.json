@@ -228,6 +228,20 @@
       },
       "price": 37.5,
       "image": "/home/ubuntu/upload/search_images/kBfsSsIKNt1i.jpg"
+    },
+    {
+      "id": "ezv5",
+      "name": "EZVIZ , 2mm y 6mm lentes ",
+      "model": "8HC 2k",
+      "specs": "Pan 340° Tilt 90°, 1080p, Visión Nocturna IR, WiFi, Detección movimiento, Audio",
+      "dori": {
+        "detect": 70,
+        "observe": 30,
+        "recognize": 15,
+        "identify": 8
+      },
+      "price": 37.5,
+      "image": "/images/ezviz2k.webp"
     }
   ],
   "imou": [
