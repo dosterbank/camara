@@ -81,6 +81,30 @@
         "recognize": 320,
         "identify": 160
       }
+    },
+    {
+      "id": "hik7",
+      "name": "Tapo C500",
+      "price": 50,
+      "image": "images/tapoc500.webp",
+      "dori": {
+        "detect": 51,
+        "observe": 20,
+        "recognize": 10,
+        "identify": 5
+      }
+    },
+     {
+      "id": "hik8",
+      "name": "Basica DS-2CE16D0T-IRPF(C)",
+      "price": 50,
+      "image": "images/DS-2CE16D0T-IRPF(C).png",
+      "dori": {
+        "detect": 32,
+        "observe": 13,
+        "recognize": 6,
+        "identify": 3.2
+      }
     }
   ],
   "dahua": [
