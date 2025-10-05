@@ -12,7 +12,7 @@
         "identify": 8
       },
       "price": 95,
-      "image": "/home/ubuntu/upload/search_images/OIGSQfxsXIj3.jpg"
+      "image": "images/Hikvision Turret Varifocal 2MP.jpg"
     },
     {
       "id": "hik2",
@@ -40,7 +40,7 @@
         "identify": 4
       },
       "price": 35,
-      "image": "/home/ubuntu/upload/search_images/QG7BMZJnZgWP.jpg"
+      "image": "images/Hikvision Bala 2MP IR Fijo.jpg"
     },
     {
       "id": "hik4",
@@ -68,7 +68,19 @@
         "identify": 15.7
       },
       "price": 299,
-      "image": "https://securityzoneonline.com.au/cdn/shop/files/DS-2SE3C404MWG-E_14_F_800x.png?v=1706159212"
+      "image": "images/TandemVu.png"
+    },
+    {
+      "id": "hik6",
+      "name": "DS-2DE4225IW-DE(T5)",
+      "price": 500,
+      "image": "images/DS-2DE4225IW-DE(T5).png",
+      "dori": {
+        "detect": 1600,
+        "observe": 634.9,
+        "recognize": 320,
+        "identify": 160
+      }
     }
   ],
   "dahua": [
@@ -243,6 +255,18 @@
       },
       "price": 41.2,
       "image": "/home/ubuntu/upload/search_images/a4nkk8GPto1k.jpg"
+    },
+    {
+      "id": "imou5",
+      "name": "Imou Dual Cruiser 3mp",
+      "price": 80,
+      "image": "images/imou dual cruiser 3mp.webp",
+      "dori": {
+        "detect": 48,
+        "observe": 19,
+        "recognize": 9.5,
+        "identify": 4.8
+      }
     }
   ],
   "recorders": [
