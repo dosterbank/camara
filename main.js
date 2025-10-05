@@ -244,7 +244,7 @@ function printToPDF() {
     doc.setTextColor(102, 126, 234);
     doc.text('CONTACTO:', 20, y);
     doc.setTextColor(80, 80, 80);
-    doc.text('Email: ventas@cctvstore.ec', 20, y + 5);
+    doc.text('Email: jqk.juarez@gmail.com', 20, y + 5);
     doc.text('WhatsApp: +593 98-709-6197', 20, y + 10);
     doc.text('Dirección: Quito - Ecuador', 20, y + 15);
     
