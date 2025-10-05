@@ -18,7 +18,9 @@ function showMainTab(tabId) {
 function createProductCard(product) {
     return `
         <div class="product-card">
-            <img src="${product.image}" alt="${product.name}" class="product-img">
+            <a href="${product.image}" target="_blank">
+                <img src="${product.image}" alt="${product.name}" class="product-img">
+            </a>
             <div class="product-name">${product.name}</div>
             <div class="product-model">${product.model}</div>
             <div class="product-specs">${product.specs}</div>
