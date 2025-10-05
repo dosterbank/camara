@@ -1,1 +1,340 @@
-{"hikvision":[{"id":"hik1","name":"Hikvision Turret Varifocal 2MP","model":"DS-2CE56D0T-VFIR3F","specs":"Lente 2.8-12mm Varifocal motorizado, 1080p Full HD, IR 40m, IP67, 4 en 1 (TVI/AHD/CVI/CVBS), Smart IR","dori":{"detect":80,"observe":32,"recognize":16,"identify":8},"price":95,"image":"/home/ubuntu/upload/search_images/OIGSQfxsXIj3.jpg"},{"id":"hik2","name":"Hikvision Domo 2MP IR Fijo","model":"DS-2CE76D0T-ITMF","specs":"Lente 2.8mm, 1080p Full HD, IR 30m, IP67, 4 en 1 (TVI/AHD/CVI/CVBS), Smart IR","dori":{"detect":40,"observe":16,"recognize":8,"identify":4},"price":38,"image":"/home/ubuntu/upload/search_images/p5Tx3uB1YRyc.png"},{"id":"hik3","name":"Hikvision Bala 2MP IR Fijo","model":"DS-2CE16D0T-ITPF","specs":"Lente 2.8mm, 1080p Full HD, IR 20m, IP67, 4 en 1 (TVI/AHD/CVI/CVBS), Smart IR","dori":{"detect":40,"observe":16,"recognize":8,"identify":4},"price":35,"image":"/home/ubuntu/upload/search_images/QG7BMZJnZgWP.jpg"},{"id":"hik4","name":"Hikvision Domo 5MP IR Fijo","model":"DS-2CE76H0T-ITMF","specs":"Lente 2.8mm, 5MP, IR 30m, IP67, 4 en 1 (TVI/AHD/CVI/CVBS), Smart IR","dori":{"detect":60,"observe":24,"recognize":12,"identify":6},"price":45,"image":"/home/ubuntu/upload/search_images/t9sHa9MkCb4p.jpg"},{"id":"hik5","name":"Hikvision TandemVu 4MP","model":"DS-2SE3C404MWG-E/14 (TandemVu)","specs":"Lente Varifocal 2.8-12mm (Zoom Óptico 4x), 4 Megapíxeles. Tienda en Ecuador: Zona Segura Tech, MercadoLibre","dori":{"detect":156.5,"observe":62.1,"recognize":31.3,"identify":15.7},"price":299.00,"image":"https://securityzoneonline.com.au/cdn/shop/files/DS-2SE3C404MWG-E_14_F_800x.png?v=1706159212"}],"dahua":[{"id":"dah1","name":"Dahua Domo 2MP IR Fijo","model":"DH-HAC-HDW1200MN-0280B","specs":"Lente 2.8mm, 1080p Full HD, IR 30m, IP67, 4 en 1 (CVI/AHD/TVI/CVBS), Smart IR","dori":{"detect":40,"observe":16,"recognize":8,"identify":4},"price":36,"image":"/home/ubuntu/upload/search_images/H8lawcCWMeP7.jpg"},{"id":"dah2","name":"Dahua Bala 2MP IR Fijo","model":"DH-HAC-HFW1200TN-0280B-S5","specs":"Lente 2.8mm, 1080p Full HD, IR 30m, IP67, 4 en 1 (CVI/AHD/TVI/CVBS), Smart IR","dori":{"detect":40,"observe":16,"recognize":8,"identify":4},"price":34,"image":"/home/ubuntu/upload/search_images/pNvATJ4sWlPj.jpg"},{"id":"dah3","name":"Dahua Domo 5MP IR Fijo","model":"DH-HAC-HDW1500MN-0280B","specs":"Lente 2.8mm, 5MP, IR 30m, IP67, 4 en 1 (CVI/AHD/TVI/CVBS), Smart IR","dori":{"detect":60,"observe":24,"recognize":12,"identify":6},"price":42,"image":"/home/ubuntu/upload/search_images/zqpBMPpN3549.png"},{"id":"dah4","name":"Dahua Bala 5MP IR Fijo","model":"DH-HAC-HFW1500TN-0280B-S5","specs":"Lente 2.8mm, 5MP, IR 30m, IP67, 4 en 1 (CVI/AHD/TVI/CVBS), Smart IR","dori":{"detect":60,"observe":24,"recognize":12,"identify":6},"price":40,"image":"/home/ubuntu/upload/search_images/SYEcTgD3y0bv.jpg"}],"ezviz":[{"id":"ezv1","name":"EZVIZ C3N 1080p Exterior","model":"CS-C3N-A0-3G2WLFR","specs":"Lente 2.8mm, 1080p, Visión Nocturna Color, AI Detección, WiFi, Audio, IP67","dori":{"detect":40,"observe":16,"recognize":8,"identify":4},"price":55.99,"image":"/home/ubuntu/upload/search_images/hpRljuQdBvLe.jpg"},{"id":"ezv2","name":"EZVIZ C8C 1080p PTZ Exterior","model":"CS-C8C-A0-1J2WL","specs":"Lente 4mm, 1080p, PTZ 360°, Visión Nocturna Color, AI Detección, WiFi, Audio, IP65","dori":{"detect":50,"observe":20,"recognize":10,"identify":5},"price":89.99,"image":"/home/ubuntu/upload/search_images/CjAlJKIQ7ojU.jpg"},{"id":"ezv3","name":"EZVIZ C3W Pro 4MP Exterior","model":"CS-C3W-A0-3H4WL","specs":"Lente 2.8mm, 4MP, Visión Nocturna Color, AI Detección, WiFi, Audio, IP67","dori":{"detect":70,"observe":28,"recognize":14,"identify":7},"price":100.29,"image":"/home/ubuntu/upload/search_images/otVWX2mycX7v.jpg"},{"id":"ezv4","name":"EZVIZ C6N 1080p Indoor","model":"C6N","specs":"Pan 340° Tilt 90°, 1080p, Visión Nocturna IR, WiFi, Detección movimiento, Audio","dori":{"detect":35,"observe":14,"recognize":7,"identify":3.5},"price":37.5,"image":"/home/ubuntu/upload/search_images/kBfsSsIKNt1i.jpg"}],"imou":[{"id":"imou1","name":"IMOU Bullet 2MP WiFi","model":"IPC-F22AP","specs":"Lente 2.8mm, 1080p, IR 30m, WiFi 2.4G, Detección humana, Audio bidireccional, IP67","dori":{"detect":50,"observe":20,"recognize":10,"identify":5},"price":45.5,"image":"/home/ubuntu/upload/search_images/iHiPRBfjh72W.jpg"},{"id":"imou2","name":"IMOU Ranger 2 360° WiFi","model":"IPC-A26HP","specs":"Pan/Tilt 360°, 1080p, Seguimiento automático, Audio bidireccional, WiFi, Visión nocturna","dori":{"detect":45,"observe":18,"recognize":9,"identify":4.5},"price":52.8,"image":"/home/ubuntu/upload/search_images/ewAC4hSMeng2.png"},{"id":"imou3","name":"IMOU Cruiser 4MP Color WiFi","model":"IPC-S42FP","specs":"Lente 2.8mm, 4MP, Color Nocturno con luz, AI Detección, WiFi, Audio, Siren","dori":{"detect":70,"observe":28,"recognize":14,"identify":7},"price":78.9,"image":"/home/ubuntu/upload/search_images/aE6fUWrwFSZ4.jpg"},{"id":"imou4","name":"IMOU Cell Pro 1080p WiFi","model":"IPC-B26EP","specs":"Lente 2.8mm, 1080p, IR 30m, WiFi, AI Humanos/Vehículos, Audio, IP67","dori":{"detect":48,"observe":19,"recognize":9.5,"identify":4.7},"price":41.2,"image":"/home/ubuntu/upload/search_images/a4nkk8GPto1k.jpg"}],"recorders":[{"id":"dvr1","name":"DVR Dahua 4CH WizSense","model":"DH-XVR1B04-I","specs":"1080p, 1CH IP adicional, SMD Plus (AI), H.265+, Hasta 6TB, Audio bidireccional","price":43.68,"image":"data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"%3E%3Cdefs%3E%3ClinearGradient id="dvr"%3E%3Cstop offset="0%25" style="stop-color:%23333"/%3E%3Cstop offset="100%25" style="stop-color:%23111"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x="50" y="95" width="200" height="90" rx="8" fill="url(%23dvr)" stroke="%23666" stroke-width="2"/%3E%3Cellipse cx="150" cy="210" rx="110" ry="15" fill="%23555" opacity="0.5"/%3E%3Ccircle cx="85" cy="135" r="10" fill="%2300ff00" opacity="0.9"/%3E%3Crect x="110" y="125" width="120" height="20" rx="3" fill="%23222"/%3E%3Ctext x="170" y="140" font-size="12" fill="%2300ff00"%3ERECORDING%3C/text%3E%3Ctext x="150" y="255" text-anchor="middle" font-size="20" font-weight="bold" fill="%23003D7A"%3EDVR 4CH%3C/text%3E%3C/svg%3E"},{"id":"dvr2","name":"DVR Dahua 8CH WizSense","model":"DH-XVR1B08-I","specs":"1080p, 2CH IP adicional, SMD Plus (AI), H.265+, Hasta 6TB, Audio bidireccional","price":54.88,"image":"data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"%3E%3Cdefs%3E%3ClinearGradient id="dvr2"%3E%3Cstop offset="0%25" style="stop-color:%23333"/%3E%3Cstop offset="100%25" style="stop-color:%23111"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x="50" y="95" width="200" height="90" rx="8" fill="url(%23dvr2)" stroke="%23666" stroke-width="2"/%3E%3Cellipse cx="150" cy="210" rx="110" ry="15" fill="%23555" opacity="0.5"/%3E%3Ccircle cx="85" cy="135" r="10" fill="%230088ff" opacity="0.9"/%3E%3Crect x="110" y="125" width="120" height="20" rx="3" fill="%23333"/%3E%3Ctext x="170" y="140" font-size="11" fill="%230088ff"%3EPoE ACTIVE%3C/text%3E%3Ctext x="150" y="255" text-anchor="middle" font-size="20" font-weight="bold" fill="%23E31E24"%3ENVR PoE 8CH%3C/text%3E%3C/svg%3E"},{"id":"dvr3","name":"DVR Dahua 16CH WizSense","model":"DH-XVR1B16-I","specs":"1080p, 18CH IP o 16+2, 8CH SMD Plus (AI), H.265+, Hasta 6TB, Audio bidireccional","price":103.04,"image":"data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"%3E%3Cdefs%3E%3ClinearGradient id="dvr3"%3E%3Cstop offset="0%25" style="stop-color:%23333"/%3E%3Cstop offset="100%25" style="stop-color:%23111"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x="50" y="95" width="200" height="90" rx="8" fill="url(%23dvr3)" stroke="%23666" stroke-width="2"/%3E%3Cellipse cx="150" cy="210" rx="110" ry="15" fill="%23555" opacity="0.5"/%3E%3Ccircle cx="85" cy="135" r="10" fill="%2300ff00" opacity="0.9"/%3E%3Crect x="110" y="125" width="120" height="20" rx="3" fill="%23222"/%3E%3Ctext x="170" y="140" font-size="11" fill="%230088ff"%3EPoE ACTIVE%3C/text%3E%3Ctext x="150" y="255" text-anchor="middle" font-size="20" font-weight="bold" fill="%23E31E24"%3ENVR PoE 16CH%3C/text%3E%3C/svg%3E"},{"id":"dvr4","name":"DVR Dahua 4CH 4K AI","model":"DH-XVR5104HS-4KL-I3","specs":"5MP 4K, 8CH IP total, 4CH SMD Plus, Reconocimiento Facial, Perimetral, 10TB","price":125.44,"image":"data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"%3E%3Cdefs%3E%3ClinearGradient id="dvr4k"%3E%3Cstop offset="0%25" style="stop-color:%23222"/%3E%3Cstop offset="100%25" style="stop-color:%23000"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x="50" y="95" width="200" height="90" rx="8" fill="url(%23dvr4k)" stroke="%23444" stroke-width="2"/%3E%3Cellipse cx="150" cy="210" rx="110" ry="15" fill="%23333" opacity="0.6"/%3E%3Ccircle cx="85" cy="135" r="10" fill="%23ff0000" opacity="0.9"/%3E%3Crect x="110" y="125" width="120" height="20" rx="3" fill="%23111"/%3E%3Ctext x="170" y="140" font-size="11" fill="%23ff3333"%3E4K AI REC%3C/text%3E%3Ctext x="150" y="255" text-anchor="middle" font-size="20" font-weight="bold" fill="%23003D7A"%3EDVR 4K 4CH%3C/text%3E%3C/svg%3E"},{"id":"dvr5","name":"DVR Dahua 8CH 4K AI","model":"DH-XVR5108HS-4KL-I3","specs":"5MP 4K, 16CH IP total, 8CH SMD Plus, Reconocimiento Facial, Perimetral, 16TB","price":173.6,"image":"data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"%3E%3Cdefs%3E%3ClinearGradient id="dvr4k2"%3E%3Cstop offset="0%25" style="stop-color:%23222"/%3E%3Cstop offset="100%25" style="stop-color:%23000"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x="50" y="95" width="200" height="90" rx="8" fill="url(%23dvr4k2)" stroke="%23444" stroke-width="2"/%3E%3Cellipse cx="150" cy="210" rx="110" ry="15" fill="%23333" opacity="0.6"/%3E%3Ccircle cx="85" cy="135" r="10" fill="%23ff0000" opacity="0.9"/%3E%3Crect x="110" y="125" width="120" height="20" rx="3" fill="%23111"/%3E%3Ctext x="170" y="140" font-size="11" fill="%23ff3333"%3E4K AI REC%3C/text%3E%3Ctext x="150" y="255" text-anchor="middle" font-size="20" font-weight="bold" fill="%23003D7A"%3EDVR 4K 8CH%3C/text%3E%3C/svg%3E"},{"id":"dvr6","name":"DVR Dahua 16CH 4K AI","model":"DH-XVR5116H-4KL-I3","specs":"5MP 4K, 32CH IP total, 16CH SMD Plus, Reconocimiento Facial, Perimetral, 16TB","price":352.8,"image":"data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"%3E%3Cdefs%3E%3ClinearGradient id="dvr4k3"%3E%3Cstop offset="0%25" style="stop-color:%23222"/%3E%3Cstop offset="100%25" style="stop-color:%23000"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x="50" y="95" width="200" height="90" rx="8" fill="url(%23dvr4k3)" stroke="%23444" stroke-width="2"/%3E%3Cellipse cx="150" cy="210" rx="110" ry="15" fill="%23333" opacity="0.6"/%3E%3Ccircle cx="85" cy="135" r="10" fill="%23ff0000" opacity="0.9"/%3E%3Crect x="110" y="125" width="120" height="20" rx="3" fill="%23111"/%3E%3Ctext x="170" y="140" font-size="11" fill="%23ff3333"%3E4K AI REC%3C/text%3E%3Ctext x="150" y="255" text-anchor="middle" font-size="20" font-weight="bold" fill="%23003D7A"%3EDVR 4K 16CH%3C/text%3E%3C/svg%3E"},{"id":"nvr1","name":"NVR Hikvision 8CH PoE","model":"DS-7608NI-K2/8P","specs":"8CH PoE integrado, 8MP 4K, 2 HDD, H.265+, 160Mbps, HDMI 4K","price":320,"image":"data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"%3E%3Cdefs%3E%3ClinearGradient id="nvr"%3E%3Cstop offset="0%25" style="stop-color:%23444"/%3E%3Cstop offset="100%25" style="stop-color:%23222"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x="50" y="95" width="200" height="90" rx="8" fill="url(%23nvr)" stroke="%23777" stroke-width="2"/%3E%3Cellipse cx="150" cy="210" rx="110" ry="15" fill="%23666" opacity="0.5"/%3E%3Ccircle cx="85" cy="135" r="10" fill="%230088ff" opacity="0.9"/%3E%3Crect x="110" y="125" width="120" height="20" rx="3" fill="%23333"/%3E%3Ctext x="170" y="140" font-size="11" fill="%230088ff"%3EPoE ACTIVE%3C/text%3E%3Ctext x="150" y="255" text-anchor="middle" font-size="20" font-weight="bold" fill="%23E31E24"%3ENVR PoE 8CH%3C/text%3E%3C/svg%3E"},{"id":"nvr2","name":"NVR Hikvision 16CH PoE","model":"DS-7616NI-K2/16P","specs":"16CH PoE integrado, 8MP 4K, 2 HDD, H.265+, 160Mbps, HDMI 4K","price":485,"image":"data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"%3E%3Cdefs%3E%3ClinearGradient id="nvr2"%3E%3Cstop offset="0%25" style="stop-color:%23444"/%3E%3Cstop offset="100%25" style="stop-color:%23222"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x="50" y="95" width="200" height="90" rx="8" fill="url(%23nvr2)" stroke="%23777" stroke-width="2"/%3E%3Cellipse cx="150" cy="210" rx="110" ry="15" fill="%23666" opacity="0.5"/%3E%3Ccircle cx="85" cy="135" r="10" fill="%230088ff" opacity="0.9"/%3E%3Crect x="110" y="125" width="120" height="20" rx="3" fill="%23333"/%3E%3Ctext x="170" y="140" font-size="11" fill="%230088ff"%3EPoE ACTIVE%3C/text%3E%3Ctext x="150" y="255" text-anchor="middle" font-size="20" font-weight="bold" fill="%23E31E24"%3ENVR PoE 16CH%3C/text%3E%3C/svg%3E"}],"storage":[{"id":"hdd1","name":"Western Digital Purple 1TB","model":"WD10PURZ","specs":"Diseñado para videovigilancia, 1TB, SATA 6Gb/s, 64MB Cache","price":55,"image":"data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"%3E%3Cdefs%3E%3ClinearGradient id="hdd1"%3E%3Cstop offset="0%25" style="stop-color:%237b1fa2"/%3E%3Cstop offset="100%25" style="stop-color:%234a148c"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x="50" y="100" width="200" height="100" rx="10" fill="url(%23hdd1)" stroke="%236a1b9a" stroke-width="3"/%3E%3Crect x="65" y="115" width="170" height="70" rx="5" fill="%23333"/%3E%3Ccircle cx="85" cy="130" r="8" fill="%238e24aa"/%3E%3Crect x="100" y="125" width="120" height="10" fill="%235e35b1"/%3E%3Crect x="100" y="140" width="100" height="10" fill="%235e35b1"/%3E%3Ctext x="150" y="240" text-anchor="middle" font-size="24" font-weight="bold" fill="%237b1fa2"%3EWD PURPLE 1TB%3C/text%3E%3C/svg%3E"},{"id":"hdd2","name":"Western Digital Purple 2TB","model":"WD20PURZ","specs":"Diseñado para videovigilancia, 2TB, SATA 6Gb/s, 64MB Cache","price":75,"image":"data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"%3E%3Cdefs%3E%3ClinearGradient id="hdd2"%3E%3Cstop offset="0%25" style="stop-color:%237b1fa2"/%3E%3Cstop offset="100%25" style="stop-color:%234a148c"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x="50" y="100" width="200" height="100" rx="10" fill="url(%23hdd2)" stroke="%236a1b9a" stroke-width="3"/%3E%3Crect x="65" y="115" width="170" height="70" rx="5" fill="%23333"/%3E%3Ccircle cx="85" cy="130" r="8" fill="%238e24aa"/%3E%3Crect x="100" y="125" width="120" height="10" fill="%235e35b1"/%3E%3Crect x="100" y="140" width="100" height="10" fill="%235e35b1"/%3E%3Ctext x="150" y="240" text-anchor="middle" font-size="24" font-weight="bold" fill="%237b1fa2"%3EWD PURPLE 2TB%3C/text%3E%3C/svg%3E"},{"id":"hdd3","name":"Western Digital Purple 4TB","model":"WD40PURZ","specs":"Diseñado para videovigilancia, 4TB, SATA 6Gb/s, 64MB Cache","price":110,"image":"data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"%3E%3Cdefs%3E%3ClinearGradient id="hdd3"%3E%3Cstop offset="0%25" style="stop-color:%237b1fa2"/%3E%3Cstop offset="100%25" style="stop-color:%234a148c"/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x="50" y="100" width="200" height="100" rx="10" fill="url(%23hdd3)" stroke="%236a1b9a" stroke-width="3"/%3E%3Crect x="65" y="115" width="170" height="70" rx="5" fill="%23333"/%3E%3Ccircle cx="85" cy="130" r="8" fill="%238e24aa"/%3E%3Crect x="100" y="125" width="120" height="10" fill="%235e35b1"/%3E%3Crect x="100" y="140" width="100" height="10" fill="%235e35b1"/%3E%3Ctext x="150" y="240" text-anchor="middle" font-size="24" font-weight="bold" fill="%237b1fa2"%3EWD PURPLE 4TB%3C/text%3E%3C/svg%3E"}]}
+{
+  "hikvision": [
+    {
+      "id": "hik1",
+      "name": "Hikvision Turret Varifocal 2MP",
+      "model": "DS-2CE56D0T-VFIR3F",
+      "specs": "Lente 2.8-12mm Varifocal motorizado, 1080p Full HD, IR 40m, IP67, 4 en 1 (TVI/AHD/CVI/CVBS), Smart IR",
+      "dori": {
+        "detect": 80,
+        "observe": 32,
+        "recognize": 16,
+        "identify": 8
+      },
+      "price": 95,
+      "image": "/home/ubuntu/upload/search_images/OIGSQfxsXIj3.jpg"
+    },
+    {
+      "id": "hik2",
+      "name": "Hikvision Domo 2MP IR Fijo",
+      "model": "DS-2CE76D0T-ITMF",
+      "specs": "Lente 2.8mm, 1080p Full HD, IR 30m, IP67, 4 en 1 (TVI/AHD/CVI/CVBS), Smart IR",
+      "dori": {
+        "detect": 40,
+        "observe": 16,
+        "recognize": 8,
+        "identify": 4
+      },
+      "price": 38,
+      "image": "/home/ubuntu/upload/search_images/p5Tx3uB1YRyc.png"
+    },
+    {
+      "id": "hik3",
+      "name": "Hikvision Bala 2MP IR Fijo",
+      "model": "DS-2CE16D0T-ITPF",
+      "specs": "Lente 2.8mm, 1080p Full HD, IR 20m, IP67, 4 en 1 (TVI/AHD/CVI/CVBS), Smart IR",
+      "dori": {
+        "detect": 40,
+        "observe": 16,
+        "recognize": 8,
+        "identify": 4
+      },
+      "price": 35,
+      "image": "/home/ubuntu/upload/search_images/QG7BMZJnZgWP.jpg"
+    },
+    {
+      "id": "hik4",
+      "name": "Hikvision Domo 5MP IR Fijo",
+      "model": "DS-2CE76H0T-ITMF",
+      "specs": "Lente 2.8mm, 5MP, IR 30m, IP67, 4 en 1 (TVI/AHD/CVI/CVBS), Smart IR",
+      "dori": {
+        "detect": 60,
+        "observe": 24,
+        "recognize": 12,
+        "identify": 6
+      },
+      "price": 45,
+      "image": "/home/ubuntu/upload/search_images/t9sHa9MkCb4p.jpg"
+    },
+    {
+      "id": "hik5",
+      "name": "Hikvision TandemVu 4MP",
+      "model": "DS-2SE3C404MWG-E/14 (TandemVu)",
+      "specs": "Lente Varifocal 2.8-12mm (Zoom Óptico 4x), 4 Megapíxeles. Tienda en Ecuador: Zona Segura Tech, MercadoLibre",
+      "dori": {
+        "detect": 156.5,
+        "observe": 62.1,
+        "recognize": 31.3,
+        "identify": 15.7
+      },
+      "price": 299,
+      "image": "https://securityzoneonline.com.au/cdn/shop/files/DS-2SE3C404MWG-E_14_F_800x.png?v=1706159212"
+    }
+  ],
+  "dahua": [
+    {
+      "id": "dah1",
+      "name": "Dahua Domo 2MP IR Fijo",
+      "model": "DH-HAC-HDW1200MN-0280B",
+      "specs": "Lente 2.8mm, 1080p Full HD, IR 30m, IP67, 4 en 1 (CVI/AHD/TVI/CVBS), Smart IR",
+      "dori": {
+        "detect": 40,
+        "observe": 16,
+        "recognize": 8,
+        "identify": 4
+      },
+      "price": 36,
+      "image": "/home/ubuntu/upload/search_images/H8lawcCWMeP7.jpg"
+    },
+    {
+      "id": "dah2",
+      "name": "Dahua Bala 2MP IR Fijo",
+      "model": "DH-HAC-HFW1200TN-0280B-S5",
+      "specs": "Lente 2.8mm, 1080p Full HD, IR 30m, IP67, 4 en 1 (CVI/AHD/TVI/CVBS), Smart IR",
+      "dori": {
+        "detect": 40,
+        "observe": 16,
+        "recognize": 8,
+        "identify": 4
+      },
+      "price": 34,
+      "image": "/home/ubuntu/upload/search_images/pNvATJ4sWlPj.jpg"
+    },
+    {
+      "id": "dah3",
+      "name": "Dahua Domo 5MP IR Fijo",
+      "model": "DH-HAC-HDW1500MN-0280B",
+      "specs": "Lente 2.8mm, 5MP, IR 30m, IP67, 4 en 1 (CVI/AHD/TVI/CVBS), Smart IR",
+      "dori": {
+        "detect": 60,
+        "observe": 24,
+        "recognize": 12,
+        "identify": 6
+      },
+      "price": 42,
+      "image": "/home/ubuntu/upload/search_images/zqpBMPpN3549.png"
+    },
+    {
+      "id": "dah4",
+      "name": "Dahua Bala 5MP IR Fijo",
+      "model": "DH-HAC-HFW1500TN-0280B-S5",
+      "specs": "Lente 2.8mm, 5MP, IR 30m, IP67, 4 en 1 (CVI/AHD/TVI/CVBS), Smart IR",
+      "dori": {
+        "detect": 60,
+        "observe": 24,
+        "recognize": 12,
+        "identify": 6
+      },
+      "price": 40,
+      "image": "/home/ubuntu/upload/search_images/SYEcTgD3y0bv.jpg"
+    }
+  ],
+  "ezviz": [
+    {
+      "id": "ezv1",
+      "name": "EZVIZ C3N 1080p Exterior",
+      "model": "CS-C3N-A0-3G2WLFR",
+      "specs": "Lente 2.8mm, 1080p, Visión Nocturna Color, AI Detección, WiFi, Audio, IP67",
+      "dori": {
+        "detect": 40,
+        "observe": 16,
+        "recognize": 8,
+        "identify": 4
+      },
+      "price": 55.99,
+      "image": "/home/ubuntu/upload/search_images/hpRljuQdBvLe.jpg"
+    },
+    {
+      "id": "ezv2",
+      "name": "EZVIZ C8C 1080p PTZ Exterior",
+      "model": "CS-C8C-A0-1J2WL",
+      "specs": "Lente 4mm, 1080p, PTZ 360°, Visión Nocturna Color, AI Detección, WiFi, Audio, IP65",
+      "dori": {
+        "detect": 50,
+        "observe": 20,
+        "recognize": 10,
+        "identify": 5
+      },
+      "price": 89.99,
+      "image": "/home/ubuntu/upload/search_images/CjAlJKIQ7ojU.jpg"
+    },
+    {
+      "id": "ezv3",
+      "name": "EZVIZ C3W Pro 4MP Exterior",
+      "model": "CS-C3W-A0-3H4WL",
+      "specs": "Lente 2.8mm, 4MP, Visión Nocturna Color, AI Detección, WiFi, Audio, IP67",
+      "dori": {
+        "detect": 70,
+        "observe": 28,
+        "recognize": 14,
+        "identify": 7
+      },
+      "price": 100.29,
+      "image": "/home/ubuntu/upload/search_images/otVWX2mycX7v.jpg"
+    },
+    {
+      "id": "ezv4",
+      "name": "EZVIZ C6N 1080p Indoor",
+      "model": "C6N",
+      "specs": "Pan 340° Tilt 90°, 1080p, Visión Nocturna IR, WiFi, Detección movimiento, Audio",
+      "dori": {
+        "detect": 35,
+        "observe": 14,
+        "recognize": 7,
+        "identify": 3.5
+      },
+      "price": 37.5,
+      "image": "/home/ubuntu/upload/search_images/kBfsSsIKNt1i.jpg"
+    }
+  ],
+  "imou": [
+    {
+      "id": "imou1",
+      "name": "IMOU Bullet 2MP WiFi",
+      "model": "IPC-F22AP",
+      "specs": "Lente 2.8mm, 1080p, IR 30m, WiFi 2.4G, Detección humana, Audio bidireccional, IP67",
+      "dori": {
+        "detect": 50,
+        "observe": 20,
+        "recognize": 10,
+        "identify": 5
+      },
+      "price": 45.5,
+      "image": "/home/ubuntu/upload/search_images/iHiPRBfjh72W.jpg"
+    },
+    {
+      "id": "imou2",
+      "name": "IMOU Ranger 2 360° WiFi",
+      "model": "IPC-A26HP",
+      "specs": "Pan/Tilt 360°, 1080p, Seguimiento automático, Audio bidireccional, WiFi, Visión nocturna",
+      "dori": {
+        "detect": 45,
+        "observe": 18,
+        "recognize": 9,
+        "identify": 4.5
+      },
+      "price": 52.8,
+      "image": "/home/ubuntu/upload/search_images/ewAC4hSMeng2.png"
+    },
+    {
+      "id": "imou3",
+      "name": "IMOU Cruiser 4MP Color WiFi",
+      "model": "IPC-S42FP",
+      "specs": "Lente 2.8mm, 4MP, Color Nocturno con luz, AI Detección, WiFi, Audio, Siren",
+      "dori": {
+        "detect": 70,
+        "observe": 28,
+        "recognize": 14,
+        "identify": 7
+      },
+      "price": 78.9,
+      "image": "/home/ubuntu/upload/search_images/aE6fUWrwFSZ4.jpg"
+    },
+    {
+      "id": "imou4",
+      "name": "IMOU Cell Pro 1080p WiFi",
+      "model": "IPC-B26EP",
+      "specs": "Lente 2.8mm, 1080p, IR 30m, WiFi, AI Humanos/Vehículos, Audio, IP67",
+      "dori": {
+        "detect": 48,
+        "observe": 19,
+        "recognize": 9.5,
+        "identify": 4.7
+      },
+      "price": 41.2,
+      "image": "/home/ubuntu/upload/search_images/a4nkk8GPto1k.jpg"
+    }
+  ],
+  "recorders": [
+    {
+      "id": "dvr1",
+      "name": "DVR Dahua 4CH WizSense",
+      "model": "DH-XVR1B04-I",
+      "specs": "1080p, 1CH IP adicional, SMD Plus (AI), H.265+, Hasta 6TB, Audio bidireccional",
+      "price": 43.68,
+      "image": "data:image/svg+xml,%3Csvg xmlns='''http://www.w3.org/2000/svg''' viewBox='''0 0 300 300'''%3E%3Cdefs%3E%3ClinearGradient id='''dvr'''%3E%3Cstop offset='''0%25''' style='''stop-color:%23333'''/%3E%3Cstop offset='''100%25''' style='''stop-color:%23111'''/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='''50''' y='''95''' width='''200''' height='''90''' rx='''8''' fill='''url(%23dvr)''' stroke='''%23666''' stroke-width='''2'''/%3E%3Cellipse cx='''150''' cy='''210''' rx='''110''' ry='''15''' fill='''%23555''' opacity='''0.5'''/%3E%3Ccircle cx='''85''' cy='''135''' r='''10''' fill='''%2300ff00''' opacity='''0.9'''/%3E%3Crect x='''110''' y='''125''' width='''120''' height='''20''' rx='''3''' fill='''%23222'''/%3E%3Ctext x='''170''' y='''140''' font-size='''12''' fill='''%2300ff00'''%3ERECORDING%3C/text%3E%3Ctext x='''150''' y='''255''' text-anchor='''middle''' font-size='''20''' font-weight='''bold''' fill='''%23003D7A'''%3EDVR 4CH%3C/text%3E%3C/svg%3E"
+    },
+    {
+      "id": "dvr2",
+      "name": "DVR Dahua 8CH WizSense",
+      "model": "DH-XVR1B08-I",
+      "specs": "1080p, 2CH IP adicional, SMD Plus (AI), H.265+, Hasta 6TB, Audio bidireccional",
+      "price": 54.88,
+      "image": "data:image/svg+xml,%3Csvg xmlns='''http://www.w3.org/2000/svg''' viewBox='''0 0 300 300'''%3E%3Cdefs%3E%3ClinearGradient id='''dvr2'''%3E%3Cstop offset='''0%25''' style='''stop-color:%23333'''/%3E%3Cstop offset='''100%25''' style='''stop-color:%23111'''/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='''50''' y='''95''' width='''200''' height='''90''' rx='''8''' fill='''url(%23dvr2)''' stroke='''%23666''' stroke-width='''2'''/%3E%3Cellipse cx='''150''' cy='''210''' rx='''110''' ry='''15''' fill='''%23555''' opacity='''0.5'''/%3E%3Ccircle cx='''85''' cy='''135''' r='''10''' fill='''%230088ff''' opacity='''0.9'''/%3E%3Crect x='''110''' y='''125''' width='''120''' height='''20''' rx='''3''' fill='''%23333'''/%3E%3Ctext x='''170''' y='''140''' font-size='''11''' fill='''%230088ff'''%3EPoE ACTIVE%3C/text%3E%3Ctext x='''150''' y='''255''' text-anchor='''middle''' font-size='''20''' font-weight='''bold''' fill='''%23E31E24'''%3ENVR PoE 8CH%3C/text%3E%3C/svg%3E"
+    },
+    {
+      "id": "dvr3",
+      "name": "DVR Dahua 16CH WizSense",
+      "model": "DH-XVR1B16-I",
+      "specs": "1080p, 18CH IP o 16+2, 8CH SMD Plus (AI), H.265+, Hasta 6TB, Audio bidireccional",
+      "price": 103.04,
+      "image": "data:image/svg+xml,%3Csvg xmlns='''http://www.w3.org/2000/svg''' viewBox='''0 0 300 300'''%3E%3Cdefs%3E%3ClinearGradient id='''dvr3'''%3E%3Cstop offset='''0%25''' style='''stop-color:%23333'''/%3E%3Cstop offset='''100%25''' style='''stop-color:%23111'''/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='''50''' y='''95''' width='''200''' height='''90''' rx='''8''' fill='''url(%23dvr3)''' stroke='''%23666''' stroke-width='''2'''/%3E%3Cellipse cx='''150''' cy='''210''' rx='''110''' ry='''15''' fill='''%23555''' opacity='''0.5'''/%3E%3Ccircle cx='''85''' cy='''135''' r='''10''' fill='''%2300ff00''' opacity='''0.9'''/%3E%3Crect x='''110''' y='''125''' width='''120''' height='''20''' rx='''3''' fill='''%23222'''/%3E%3Ctext x='''170''' y='''140''' font-size='''11''' fill='''%230088ff'''%3EPoE ACTIVE%3C/text%3E%3Ctext x='''150''' y='''255''' text-anchor='''middle''' font-size='''20''' font-weight='''bold''' fill='''%23E31E24'''%3ENVR PoE 16CH%3C/text%3E%3C/svg%3E"
+    },
+    {
+      "id": "dvr4",
+      "name": "DVR Dahua 4CH 4K AI",
+      "model": "DH-XVR5104HS-4KL-I3",
+      "specs": "5MP 4K, 8CH IP total, 4CH SMD Plus, Reconocimiento Facial, Perimetral, 10TB",
+      "price": 125.44,
+      "image": "data:image/svg+xml,%3Csvg xmlns='''http://www.w3.org/2000/svg''' viewBox='''0 0 300 300'''%3E%3Cdefs%3E%3ClinearGradient id='''dvr4k'''%3E%3Cstop offset='''0%25''' style='''stop-color:%23222'''/%3E%3Cstop offset='''100%25''' style='''stop-color:%23000'''/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='''50''' y='''95''' width='''200''' height='''90''' rx='''8''' fill='''url(%23dvr4k)''' stroke='''%23444''' stroke-width='''2'''/%3E%3Cellipse cx='''150''' cy='''210''' rx='''110''' ry='''15''' fill='''%23333''' opacity='''0.6'''/%3E%3Ccircle cx='''85''' cy='''135''' r='''10''' fill='''%23ff0000''' opacity='''0.9'''/%3E%3Crect x='''110''' y='''125''' width='''120''' height='''20''' rx='''3''' fill='''%23111'''/%3E%3Ctext x='''170''' y='''140''' font-size='''11''' fill='''%23ff3333'''%3E4K AI REC%3C/text%3E%3Ctext x='''150''' y='''255''' text-anchor='''middle''' font-size='''20''' font-weight='''bold''' fill='''%23003D7A'''%3EDVR 4K 4CH%3C/text%3E%3C/svg%3E"
+    },
+    {
+      "id": "dvr5",
+      "name": "DVR Dahua 8CH 4K AI",
+      "model": "DH-XVR5108HS-4KL-I3",
+      "specs": "5MP 4K, 16CH IP total, 8CH SMD Plus, Reconocimiento Facial, Perimetral, 16TB",
+      "price": 173.6,
+      "image": "data:image/svg+xml,%3Csvg xmlns='''http://www.w3.org/2000/svg''' viewBox='''0 0 300 300'''%3E%3Cdefs%3E%3ClinearGradient id='''dvr4k2'''%3E%3Cstop offset='''0%25''' style='''stop-color:%23222'''/%3E%3Cstop offset='''100%25''' style='''stop-color:%23000'''/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='''50''' y='''95''' width='''200''' height='''90''' rx='''8''' fill='''url(%23dvr4k2)''' stroke='''%23444''' stroke-width='''2'''/%3E%3Cellipse cx='''150''' cy='''210''' rx='''110''' ry='''15''' fill='''%23333''' opacity='''0.6'''/%3E%3Ccircle cx='''85''' cy='''135''' r='''10''' fill='''%23ff0000''' opacity='''0.9'''/%3E%3Crect x='''110''' y='''125''' width='''120''' height='''20''' rx='''3''' fill='''%23111'''/%3E%3Ctext x='''170''' y='''140''' font-size='''11''' fill='''%23ff3333'''%3E4K AI REC%3C/text%3E%3Ctext x='''150''' y='''255''' text-anchor='''middle''' font-size='''20''' font-weight='''bold''' fill='''%23003D7A'''%3EDVR 4K 8CH%3C/text%3E%3C/svg%3E"
+    },
+    {
+      "id": "dvr6",
+      "name": "DVR Dahua 16CH 4K AI",
+      "model": "DH-XVR5116H-4KL-I3",
+      "specs": "5MP 4K, 32CH IP total, 16CH SMD Plus, Reconocimiento Facial, Perimetral, 16TB",
+      "price": 352.8,
+      "image": "data:image/svg+xml,%3Csvg xmlns='''http://www.w3.org/2000/svg''' viewBox='''0 0 300 300'''%3E%3Cdefs%3E%3ClinearGradient id='''dvr4k3'''%3E%3Cstop offset='''0%25''' style='''stop-color:%23222'''/%3E%3Cstop offset='''100%25''' style='''stop-color:%23000'''/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='''50''' y='''95''' width='''200''' height='''90''' rx='''8''' fill='''url(%23dvr4k3)''' stroke='''%23444''' stroke-width='''2'''/%3E%3Cellipse cx='''150''' cy='''210''' rx='''110''' ry='''15''' fill='''%23333''' opacity='''0.6'''/%3E%3Ccircle cx='''85''' cy='''135''' r='''10''' fill='''%23ff0000''' opacity='''0.9'''/%3E%3Crect x='''110''' y='''125''' width='''120''' height='''20''' rx='''3''' fill='''%23111'''/%3E%3Ctext x='''170''' y='''140''' font-size='''11''' fill='''%23ff3333'''%3E4K AI REC%3C/text%3E%3Ctext x='''150''' y='''255''' text-anchor='''middle''' font-size='''20''' font-weight='''bold''' fill='''%23003D7A'''%3EDVR 4K 16CH%3C/text%3E%3C/svg%3E"
+    },
+    {
+      "id": "nvr1",
+      "name": "NVR Hikvision 8CH PoE",
+      "model": "DS-7608NI-K2/8P",
+      "specs": "8CH PoE integrado, 8MP 4K, 2 HDD, H.265+, 160Mbps, HDMI 4K",
+      "price": 320,
+      "image": "data:image/svg+xml,%3Csvg xmlns='''http://www.w3.org/2000/svg''' viewBox='''0 0 300 300'''%3E%3Cdefs%3E%3ClinearGradient id='''nvr'''%3E%3Cstop offset='''0%25''' style='''stop-color:%23444'''/%3E%3Cstop offset='''100%25''' style='''stop-color:%23222'''/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='''50''' y='''95''' width='''200''' height='''90''' rx='''8''' fill='''url(%23nvr)''' stroke='''%23777''' stroke-width='''2'''/%3E%3Cellipse cx='''150''' cy='''210''' rx='''110''' ry='''15''' fill='''%23666''' opacity='''0.5'''/%3E%3Ccircle cx='''85''' cy='''135''' r='''10''' fill='''%230088ff''' opacity='''0.9'''/%3E%3Crect x='''110''' y='''125''' width='''120''' height='''20''' rx='''3''' fill='''%23333'''/%3E%3Ctext x='''170''' y='''140''' font-size='''11''' fill='''%230088ff'''%3EPoE ACTIVE%3C/text%3E%3Ctext x='''150''' y='''255''' text-anchor='''middle''' font-size='''20''' font-weight='''bold''' fill='''%23E31E24'''%3ENVR PoE 8CH%3C/text%3E%3C/svg%3E"
+    },
+    {
+      "id": "nvr2",
+      "name": "NVR Hikvision 16CH PoE",
+      "model": "DS-7616NI-K2/16P",
+      "specs": "16CH PoE integrado, 8MP 4K, 2 HDD, H.265+, 160Mbps, HDMI 4K",
+      "price": 485,
+      "image": "data:image/svg+xml,%3Csvg xmlns='''http://www.w3.org/2000/svg''' viewBox='''0 0 300 300'''%3E%3Cdefs%3E%3ClinearGradient id='''nvr2'''%3E%3Cstop offset='''0%25''' style='''stop-color:%23444'''/%3E%3Cstop offset='''100%25''' style='''stop-color:%23222'''/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='''50''' y='''95''' width='''200''' height='''90''' rx='''8''' fill='''url(%23nvr2)''' stroke='''%23777''' stroke-width='''2'''/%3E%3Cellipse cx='''150''' cy='''210''' rx='''110''' ry='''15''' fill='''%23666''' opacity='''0.5'''/%3E%3Ccircle cx='''85''' cy='''135''' r='''10''' fill='''%230088ff''' opacity='''0.9'''/%3E%3Crect x='''110''' y='''125''' width='''120''' height='''20''' rx='''3''' fill='''%23333'''/%3E%3Ctext x='''170''' y='''140''' font-size='''11''' fill='''%230088ff'''%3EPoE ACTIVE%3C/text%3E%3Ctext x='''150''' y='''255''' text-anchor='''middle''' font-size='''20''' font-weight='''bold''' fill='''%23E31E24'''%3ENVR PoE 16CH%3C/text%3E%3C/svg%3E"
+    }
+  ],
+  "storage": [
+    {
+      "id": "hdd1",
+      "name": "Western Digital Purple 1TB",
+      "model": "WD10PURZ",
+      "specs": "Diseñado para videovigilancia, 1TB, SATA 6Gb/s, 64MB Cache",
+      "price": 55,
+      "image": "data:image/svg+xml,%3Csvg xmlns='''http://www.w3.org/2000/svg''' viewBox='''0 0 300 300'''%3E%3Cdefs%3E%3ClinearGradient id='''hdd1'''%3E%3Cstop offset='''0%25''' style='''stop-color:%237b1fa2'''/%3E%3Cstop offset='''100%25''' style='''stop-color:%234a148c'''/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='''50''' y='''100''' width='''200''' height='''100''' rx='''10''' fill='''url(%23hdd1)''' stroke='''%236a1b9a''' stroke-width='''3'''/%3E%3Crect x='''65''' y='''115''' width='''170''' height='''70''' rx='''5''' fill='''%23333'''/%3E%3Ccircle cx='''85''' cy='''130''' r='''8''' fill='''%238e24aa'''/%3E%3Crect x='''100''' y='''125''' width='''120''' height='''10''' fill='''%235e35b1'''/%3E%3Crect x='''100''' y='''140''' width='''100''' height='''10''' fill='''%235e35b1'''/%3E%3Ctext x='''150''' y='''240''' text-anchor='''middle''' font-size='''24''' font-weight='''bold''' fill='''%237b1fa2'''%3EWD PURPLE 1TB%3C/text%3E%3C/svg%3E"
+    },
+    {
+      "id": "hdd2",
+      "name": "Western Digital Purple 2TB",
+      "model": "WD20PURZ",
+      "specs": "Diseñado para videovigilancia, 2TB, SATA 6Gb/s, 64MB Cache",
+      "price": 75,
+      "image": "data:image/svg+xml,%3Csvg xmlns='''http://www.w3.org/2000/svg''' viewBox='''0 0 300 300'''%3E%3Cdefs%3E%3ClinearGradient id='''hdd2'''%3E%3Cstop offset='''0%25''' style='''stop-color:%237b1fa2'''/%3E%3Cstop offset='''100%25''' style='''stop-color:%234a148c'''/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='''50''' y='''100''' width='''200''' height='''100''' rx='''10''' fill='''url(%23hdd2)''' stroke='''%236a1b9a''' stroke-width='''3'''/%3E%3Crect x='''65''' y='''115''' width='''170''' height='''70''' rx='''5''' fill='''%23333'''/%3E%3Ccircle cx='''85''' cy='''130''' r='''8''' fill='''%238e24aa'''/%3E%3Crect x='''100''' y='''125''' width='''120''' height='''10''' fill='''%235e35b1'''/%3E%3Crect x='''100''' y='''140''' width='''100''' height='''10''' fill='''%235e35b1'''/%3E%3Ctext x='''150''' y='''240''' text-anchor='''middle''' font-size='''24''' font-weight='''bold''' fill='''%237b1fa2'''%3EWD PURPLE 2TB%3C/text%3E%3C/svg%3E"
+    },
+    {
+      "id": "hdd3",
+      "name": "Western Digital Purple 4TB",
+      "model": "WD40PURZ",
+      "specs": "Diseñado para videovigilancia, 4TB, SATA 6Gb/s, 64MB Cache",
+      "price": 110,
+      "image": "data:image/svg+xml,%3Csvg xmlns='''http://www.w3.org/2000/svg''' viewBox='''0 0 300 300'''%3E%3Cdefs%3E%3ClinearGradient id='''hdd3'''%3E%3Cstop offset='''0%25''' style='''stop-color:%237b1fa2'''/%3E%3Cstop offset='''100%25''' style='''stop-color:%234a148c'''/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='''50''' y='''100''' width='''200''' height='''100''' rx='''10''' fill='''url(%23hdd3)''' stroke='''%236a1b9a''' stroke-width='''3'''/%3E%3Crect x='''65''' y='''115''' width='''170''' height='''70''' rx='''5''' fill='''%23333'''/%3E%3Ccircle cx='''85''' cy='''130''' r='''8''' fill='''%238e24aa'''/%3E%3Crect x='''100''' y='''125''' width='''120''' height='''10''' fill='''%235e35b1'''/%3E%3Crect x='''100''' y='''140''' width='''100''' height='''10''' fill='''%235e35b1'''/%3E%3Ctext x='''150''' y='''240''' text-anchor='''middle''' font-size='''24''' font-weight='''bold''' fill='''%237b1fa2'''%3EWD PURPLE 4TB%3C/text%3E%3C/svg%3E"
+    }
+  ]
+}
