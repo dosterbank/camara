@@ -96,6 +96,32 @@ function addService(type) {
     }
 }
 
+function addCustomService(type, name) {
+    const price = parseFloat(document.getElementById(`${type}-price`).value) || 0;
+    const comments = document.getElementById(`${type}-comments`).value;
+    
+    if (price > 0) {
+        const id = `service-${type}-${Date.now()}`; // Unique ID for each custom service
+        let serviceName = name;
+        if (comments) {
+            serviceName += ` (${comments})`;
+        }
+        
+        cart[id] = {
+            name: serviceName,
+            price: price,
+            qty: 1, // Custom services are added one by one
+            isCustom: true
+        };
+        
+        document.getElementById(`${type}-price`).value = 0;
+        document.getElementById(`${type}-comments`).value = '';
+        updateCart();
+    } else {
+        alert('Por favor ingrese un precio mayor a 0');
+    }
+}
+
 function removeFromCart(id) {
     delete cart[id];
     updateCart();
@@ -127,14 +153,23 @@ function updateCart() {
     for (const [id, item] of Object.entries(cart)) {
         const subtotal = item.price * item.qty;
         total += subtotal;
+        
+        let qtyControls = `
+            <div class="cart-item-qty">
+                <button class="qty-btn" onclick="changeQty('${id}', -1)">−</button>
+                <span style="min-width: 35px; text-align: center; font-weight: bold;">${item.qty}</span>
+                <button class="qty-btn" onclick="changeQty('${id}', 1)">+</button>
+            </div>
+        `;
+        
+        if (item.isCustom) {
+            qtyControls = `<div class="cart-item-qty"><span style="min-width: 35px; text-align: center; font-weight: bold;">${item.qty}</span></div>`;
+        }
+
         html += `
             <div class="cart-item">
                 <div class="cart-item-name">${item.name}<br><small style="color: #999;">${item.price.toFixed(2)} c/u</small></div>
-                <div class="cart-item-qty">
-                    <button class="qty-btn" onclick="changeQty('${id}', -1)">−</button>
-                    <span style="min-width: 35px; text-align: center; font-weight: bold;">${item.qty}</span>
-                    <button class="qty-btn" onclick="changeQty('${id}', 1)">+</button>
-                </div>
+                ${qtyControls}
                 <div style="font-weight: bold; min-width: 85px; text-align: right; color: #667eea;">${subtotal.toFixed(2)}</div>
                 <button class="remove-btn" onclick="removeFromCart('${id}')">✕</button>
             </div>
