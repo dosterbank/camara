@@ -345,9 +345,9 @@ async function printToPDF() {
     
     doc.setFontSize(9);
     doc.setTextColor(100, 100, 100);
-    doc.text('• Todos los precios incluyen IVA 15%', 20, y);
+    //doc.text('• Todos los precios incluyen IVA 15%', 20, y);
     doc.text('• Cotización válida por 15 días calendario', 20, y + 5);
-    doc.text('• Garantía: 1 año en equipos, 6 meses en instalación', 20, y + 10);
+    doc.text('• Garantía: 1 año en equipos, 12 meses en instalación y reparacion', 20, y + 10);
     
     y += 20;
     doc.setFontSize(10);
