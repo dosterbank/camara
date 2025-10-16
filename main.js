@@ -192,7 +192,7 @@ async function printToPDF() {
     // Header
     doc.setFontSize(22);
     doc.setTextColor(102, 126, 234);
-    doc.text('COTIZACIÓN - CCTV STORE ECUADOR', 105, 20, { align: 'center' });
+    doc.text('COTIZACIÓN', 105, 20, { align: 'center' });
     
     doc.setDrawColor(102, 126, 234);
     doc.setLineWidth(0.5);
