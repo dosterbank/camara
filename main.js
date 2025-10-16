@@ -102,17 +102,19 @@ function addCustomService(type, name) {
     
     if (price > 0) {
         const id = `service-${type}-${Date.now()}`; // Unique ID for each custom service
-        let serviceName = name;
-        if (comments) {
-            serviceName += ` (${comments})`;
-        }
         
-        cart[id] = {
-            name: serviceName,
+        const cartItem = {
+            name: name,
             price: price,
             qty: 1, // Custom services are added one by one
             isCustom: true
         };
+
+        if (comments && comments.trim() !== '') {
+            cartItem.comments = comments;
+        }
+        
+        cart[id] = cartItem;
         
         document.getElementById(`${type}-price`).value = 0;
         document.getElementById(`${type}-comments`).value = '';
@@ -252,7 +254,21 @@ async function printToPDF() {
         doc.text(`${item.price.toFixed(2)}`, 168, y, { align: 'right' });
         doc.text(`${subtotal.toFixed(2)}`, 188, y, { align: 'right' });
         
-        y += splitText.length * 5 + 3;
+        y += splitText.length * 5;
+
+        if (item.comments) {
+            y += 4;
+            doc.setFontSize(8);
+            doc.setTextColor(100, 100, 100);
+            const commentText = `Comentarios: ${item.comments}`;
+            const splitComment = doc.splitTextToSize(commentText, 110);
+            doc.text(splitComment, 22, y);
+            y += splitComment.length * 4;
+            doc.setFontSize(9); // Reset font size
+            doc.setTextColor(0, 0, 0); // Reset color
+        }
+    
+        y += 3;
         
         // Line separator
         doc.setDrawColor(220, 220, 220);
