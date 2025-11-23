@@ -321,7 +321,7 @@
       "model": "DH-XVR1B04-I",
       "specs": "1080p, 1CH IP adicional, SMD Plus (AI), H.265+, Hasta 6TB, Audio bidireccional",
       "price": 43.68,
-      "image": "data:image/svg+xml,%3Csvg xmlns='''http://www.w3.org/2000/svg''' viewBox='''0 0 300 300'''%3E%3Cdefs%3E%3ClinearGradient id='''dvr'''%3E%3Cstop offset='''0%25''' style='''stop-color:%23333'''/%3E%3Cstop offset='''100%25''' style='''stop-color:%23111'''/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='''50''' y='''95''' width='''200''' height='''90''' rx='''8''' fill='''url(%23dvr)''' stroke='''%23666''' stroke-width='''2'''/%3E%3Cellipse cx='''150''' cy='''210''' rx='''110''' ry='''15''' fill='''%23555''' opacity='''0.5'''/%3E%3Ccircle cx='''85''' cy='''135''' r='''10''' fill='''%2300ff00''' opacity='''0.9'''/%3E%3Crect x='''110''' y='''125''' width='''120''' height='''20''' rx='''3''' fill='''%23222'''/%3E%3Ctext x='''170''' y='''140''' font-size='''12''' fill='''%2300ff00'''%3ERECORDING%3C/text%3E%3Ctext x='''150''' y='''255''' text-anchor='''middle''' font-size='''20''' font-weight='''bold''' fill='''%23003D7A'''%3EDVR 4CH%3C/text%3E%3C/svg%3E"
+      "image": "images/DH-XVR1B04-I.jpg"
     },
     {
       "id": "dvr2",
@@ -329,7 +329,7 @@
       "model": "DH-XVR1B08-I",
       "specs": "1080p, 2CH IP adicional, SMD Plus (AI), H.265+, Hasta 6TB, Audio bidireccional",
       "price": 54.88,
-      "image": "data:image/svg+xml,%3Csvg xmlns='''http://www.w3.org/2000/svg''' viewBox='''0 0 300 300'''%3E%3Cdefs%3E%3ClinearGradient id='''dvr2'''%3E%3Cstop offset='''0%25''' style='''stop-color:%23333'''/%3E%3Cstop offset='''100%25''' style='''stop-color:%23111'''/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='''50''' y='''95''' width='''200''' height='''90''' rx='''8''' fill='''url(%23dvr2)''' stroke='''%23666''' stroke-width='''2'''/%3E%3Cellipse cx='''150''' cy='''210''' rx='''110''' ry='''15''' fill='''%23555''' opacity='''0.5'''/%3E%3Ccircle cx='''85''' cy='''135''' r='''10''' fill='''%230088ff''' opacity='''0.9'''/%3E%3Crect x='''110''' y='''125''' width='''120''' height='''20''' rx='''3''' fill='''%23333'''/%3E%3Ctext x='''170''' y='''140''' font-size='''11''' fill='''%230088ff'''%3EPoE ACTIVE%3C/text%3E%3Ctext x='''150''' y='''255''' text-anchor='''middle''' font-size='''20''' font-weight='''bold''' fill='''%23E31E24'''%3ENVR PoE 8CH%3C/text%3E%3C/svg%3E"
+      "image": "images/DH-XVR1B08-I.jpg"
     },
     {
       "id": "dvr3",
@@ -337,7 +337,7 @@
       "model": "DH-XVR1B16-I",
       "specs": "1080p, 18CH IP o 16+2, 8CH SMD Plus (AI), H.265+, Hasta 6TB, Audio bidireccional",
       "price": 103.04,
-      "image": "data:image/svg+xml,%3Csvg xmlns='''http://www.w3.org/2000/svg''' viewBox='''0 0 300 300'''%3E%3Cdefs%3E%3ClinearGradient id='''dvr3'''%3E%3Cstop offset='''0%25''' style='''stop-color:%23333'''/%3E%3Cstop offset='''100%25''' style='''stop-color:%23111'''/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='''50''' y='''95''' width='''200''' height='''90''' rx='''8''' fill='''url(%23dvr3)''' stroke='''%23666''' stroke-width='''2'''/%3E%3Cellipse cx='''150''' cy='''210''' rx='''110''' ry='''15''' fill='''%23555''' opacity='''0.5'''/%3E%3Ccircle cx='''85''' cy='''135''' r='''10''' fill='''%2300ff00''' opacity='''0.9'''/%3E%3Crect x='''110''' y='''125''' width='''120''' height='''20''' rx='''3''' fill='''%23222'''/%3E%3Ctext x='''170''' y='''140''' font-size='''11''' fill='''%230088ff'''%3EPoE ACTIVE%3C/text%3E%3Ctext x='''150''' y='''255''' text-anchor='''middle''' font-size='''20''' font-weight='''bold''' fill='''%23E31E24'''%3ENVR PoE 16CH%3C/text%3E%3C/svg%3E"
+      "image": "images/DH-XVR1B16-I.jpg"
     },
     {
       "id": "dvr4",
@@ -345,7 +345,7 @@
       "model": "DH-XVR5104HS-4KL-I3",
       "specs": "5MP 4K, 8CH IP total, 4CH SMD Plus, Reconocimiento Facial, Perimetral, 10TB",
       "price": 125.44,
-      "image": "data:image/svg+xml,%3Csvg xmlns='''http://www.w3.org/2000/svg''' viewBox='''0 0 300 300'''%3E%3Cdefs%3E%3ClinearGradient id='''dvr4k'''%3E%3Cstop offset='''0%25''' style='''stop-color:%23222'''/%3E%3Cstop offset='''100%25''' style='''stop-color:%23000'''/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='''50''' y='''95''' width='''200''' height='''90''' rx='''8''' fill='''url(%23dvr4k)''' stroke='''%23444''' stroke-width='''2'''/%3E%3Cellipse cx='''150''' cy='''210''' rx='''110''' ry='''15''' fill='''%23333''' opacity='''0.6'''/%3E%3Ccircle cx='''85''' cy='''135''' r='''10''' fill='''%23ff0000''' opacity='''0.9'''/%3E%3Crect x='''110''' y='''125''' width='''120''' height='''20''' rx='''3''' fill='''%23111'''/%3E%3Ctext x='''170''' y='''140''' font-size='''11''' fill='''%23ff3333'''%3E4K AI REC%3C/text%3E%3Ctext x='''150''' y='''255''' text-anchor='''middle''' font-size='''20''' font-weight='''bold''' fill='''%23003D7A'''%3EDVR 4K 4CH%3C/text%3E%3C/svg%3E"
+      "image": "images/DH-XVR5104HS-4KL-I3.webp"
     },
     {
       "id": "dvr5",
@@ -353,7 +353,7 @@
       "model": "DH-XVR5108HS-4KL-I3",
       "specs": "5MP 4K, 16CH IP total, 8CH SMD Plus, Reconocimiento Facial, Perimetral, 16TB",
       "price": 173.6,
-      "image": "data:image/svg+xml,%3Csvg xmlns='''http://www.w3.org/2000/svg''' viewBox='''0 0 300 300'''%3E%3Cdefs%3E%3ClinearGradient id='''dvr4k2'''%3E%3Cstop offset='''0%25''' style='''stop-color:%23222'''/%3E%3Cstop offset='''100%25''' style='''stop-color:%23000'''/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='''50''' y='''95''' width='''200''' height='''90''' rx='''8''' fill='''url(%23dvr4k2)''' stroke='''%23444''' stroke-width='''2'''/%3E%3Cellipse cx='''150''' cy='''210''' rx='''110''' ry='''15''' fill='''%23333''' opacity='''0.6'''/%3E%3Ccircle cx='''85''' cy='''135''' r='''10''' fill='''%23ff0000''' opacity='''0.9'''/%3E%3Crect x='''110''' y='''125''' width='''120''' height='''20''' rx='''3''' fill='''%23111'''/%3E%3Ctext x='''170''' y='''140''' font-size='''11''' fill='''%23ff3333'''%3E4K AI REC%3C/text%3E%3Ctext x='''150''' y='''255''' text-anchor='''middle''' font-size='''20''' font-weight='''bold''' fill='''%23003D7A'''%3EDVR 4K 8CH%3C/text%3E%3C/svg%3E"
+      "image": "images/DH-XVR5108HS-4KL-I3.jpg"
     },
     {
       "id": "dvr6",
@@ -361,7 +361,7 @@
       "model": "DH-XVR5116H-4KL-I3",
       "specs": "5MP 4K, 32CH IP total, 16CH SMD Plus, Reconocimiento Facial, Perimetral, 16TB",
       "price": 352.8,
-      "image": "data:image/svg+xml,%3Csvg xmlns='''http://www.w3.org/2000/svg''' viewBox='''0 0 300 300'''%3E%3Cdefs%3E%3ClinearGradient id='''dvr4k3'''%3E%3Cstop offset='''0%25''' style='''stop-color:%23222'''/%3E%3Cstop offset='''100%25''' style='''stop-color:%23000'''/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='''50''' y='''95''' width='''200''' height='''90''' rx='''8''' fill='''url(%23dvr4k3)''' stroke='''%23444''' stroke-width='''2'''/%3E%3Cellipse cx='''150''' cy='''210''' rx='''110''' ry='''15''' fill='''%23333''' opacity='''0.6'''/%3E%3Ccircle cx='''85''' cy='''135''' r='''10''' fill='''%23ff0000''' opacity='''0.9'''/%3E%3Crect x='''110''' y='''125''' width='''120''' height='''20''' rx='''3''' fill='''%23111'''/%3E%3Ctext x='''170''' y='''140''' font-size='''11''' fill='''%23ff3333'''%3E4K AI REC%3C/text%3E%3Ctext x='''150''' y='''255''' text-anchor='''middle''' font-size='''20''' font-weight='''bold''' fill='''%23003D7A'''%3EDVR 4K 16CH%3C/text%3E%3C/svg%3E"
+      "image": "images/DH-XVR5116H-4KL-I3.jpg"
     },
     {
       "id": "nvr1",
@@ -369,8 +369,7 @@
       "model": "DS-7608NI-K2/8P",
       "specs": "8CH PoE integrado, 8MP 4K, 2 HDD, H.265+, 160Mbps, HDMI 4K",
       "price": 320,
-      "image": "data:image/svg+xml,%3Csvg xmlns='''http://www.w3.org/2000/svg''' viewBox='''0 0 300 300'''%3E%3Cdefs%3E%3ClinearGradient id='''nvr'''%3E%3Cstop offset='''0%25''' style='''stop-color:%23444'''/%3E%3Cstop offset='''100%25''' style='''stop-color:%23222'''/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='''50''' y='''95''' width='''200''' height='''90''' rx='''8''' fill='''url(%23nvr)''' stroke='''%23777''' stroke-width='''2'''/%3E%3Cellipse cx='''150''' cy='''210''' rx='''110''' ry='''15''' fill='''%23666''' opacity='''0.5'''/%3E%3Ccircle cx='''85''' cy='''135''' r='''10''' fill='''%230088ff''' opacity='''0.9'''/%3E%3Crect x='''110''' y='''125''' width='''120''' height='''20''' rx='''3''' fill='''%23333'''/%3E%3Ctext x='''170''' y='''140''' font-size='''11''' fill='''%230088ff'''%3EPoE ACTIVE%3C/text%3E%3Ctext x='''150''' y='''255''' text-anchor='''middle''' font-size='''20''' font-weight='''bold''' fill='''%23E31E24'''%3ENVR PoE 8CH%3C/text%3E%3C/svg%3E"
-    },
+      "image": "images",-
     {
       "id": "nvr2",
       "name": "NVR Hikvision 16CH PoE",
