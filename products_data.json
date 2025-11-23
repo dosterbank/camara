@@ -185,7 +185,7 @@
         "identify": 4
       },
       "price": 55.99,
-      "image": "/home/ubuntu/upload/search_images/hpRljuQdBvLe.jpg"
+      "image": "/images/CS-C3N-A0-3G2WLFR.jpg"
     },
     {
       "id": "ezv2",
@@ -199,7 +199,7 @@
         "identify": 5
       },
       "price": 89.99,
-      "image": "/home/ubuntu/upload/search_images/CjAlJKIQ7ojU.jpg"
+      "image": "images/CS-C8C-A0-1J2WL.jpg"
     },
     {
       "id": "ezv3",
@@ -213,7 +213,7 @@
         "identify": 7
       },
       "price": 100.29,
-      "image": "/home/ubuntu/upload/search_images/otVWX2mycX7v.jpg"
+      "image": "/images/EZVIZ C3W Pro 4MP Exterior.jpg"
     },
     {
       "id": "ezv4",
@@ -227,7 +227,7 @@
         "identify": 3.5
       },
       "price": 37.5,
-      "image": "/home/ubuntu/upload/search_images/kBfsSsIKNt1i.jpg"
+      "image": "/images/EZVIZ C6N 1080p Indoor.jpg"
     },
     {
       "id": "ezv5",
@@ -241,7 +241,7 @@
         "identify": 8
       },
       "price": 70,
-      "image": "images/ezviz2k.webp"
+      "image": "images/8HC 2k.jpg"
     }
   ],
   "imou": [
@@ -257,7 +257,7 @@
         "identify": 5
       },
       "price": 45.5,
-      "image": "/home/ubuntu/upload/search_images/iHiPRBfjh72W.jpg"
+      "image": "/images/IMOU Bullet 2MP WiFi.jpg"
     },
     {
       "id": "imou2",
@@ -271,7 +271,7 @@
         "identify": 4.5
       },
       "price": 52.8,
-      "image": "/home/ubuntu/upload/search_images/ewAC4hSMeng2.png"
+      "image": "/images/IMOU Ranger 2 360° WiFi.jpg"
     },
     {
       "id": "imou3",
@@ -285,7 +285,7 @@
         "identify": 7
       },
       "price": 78.9,
-      "image": "/home/ubuntu/upload/search_images/aE6fUWrwFSZ4.jpg"
+      "image": "/images/IMOU Cruiser 4MP Color WiFi.jpg"
     },
     {
       "id": "imou4",
@@ -299,13 +299,13 @@
         "identify": 4.7
       },
       "price": 41.2,
-      "image": "/home/ubuntu/upload/search_images/a4nkk8GPto1k.jpg"
+      "image": "/images/IMOU Cell Pro 1080p WiFi.jpg"
     },
     {
       "id": "imou5",
       "name": "Imou Dual Cruiser 3mp",
       "price": 80,
-      "image": "images/imou dual cruiser 3mp.webp",
+      "image": "images/Imou Dual Cruiser 3mp.jpg",
       "dori": {
         "detect": 48,
         "observe": 19,
