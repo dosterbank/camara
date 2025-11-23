@@ -127,7 +127,7 @@
         "identify": 4
       },
       "price": 36,
-      "image": "/images/DH-HAC-HDW1200MN-0280B.jpg"
+      "image": "images/DH-HAC-HDW1200MN-0280B.jpg"
     },
     {
       "id": "dah2",
@@ -141,7 +141,7 @@
         "identify": 4
       },
       "price": 34,
-      "image": "/images/DH-HAC-HFW1200TN-0280B-S5.jpg"
+      "image": "images/DH-HAC-HFW1200TN-0280B-S5.jpg"
     },
     {
       "id": "dah3",
@@ -155,7 +155,7 @@
         "identify": 6
       },
       "price": 42,
-      "image": "/images/DH-HAC-HDW1500MN-0280B.jpg"
+      "image": "images/DH-HAC-HDW1500MN-0280B.jpg"
     },
     {
       "id": "dah4",
@@ -169,7 +169,7 @@
         "identify": 6
       },
       "price": 40,
-      "image": "/images/DH-HAC-HFW1500TN-0280B-S5.jpg"
+      "image": "images/DH-HAC-HFW1500TN-0280B-S5.jpg"
     }
   ],
   "ezviz": [
@@ -185,7 +185,7 @@
         "identify": 4
       },
       "price": 55.99,
-      "image": "/images/CS-C3N-A0-3G2WLFR.jpg"
+      "image": "images/CS-C3N-A0-3G2WLFR.jpg"
     },
     {
       "id": "ezv2",
@@ -213,7 +213,7 @@
         "identify": 7
       },
       "price": 100.29,
-      "image": "/images/EZVIZ C3W Pro 4MP Exterior.jpg"
+      "image": "images/EZVIZ C3W Pro 4MP Exterior.jpg"
     },
     {
       "id": "ezv4",
@@ -227,7 +227,7 @@
         "identify": 3.5
       },
       "price": 37.5,
-      "image": "/images/EZVIZ C6N 1080p Indoor.jpg"
+      "image": "images/EZVIZ C6N 1080p Indoor.jpg"
     },
     {
       "id": "ezv5",
@@ -257,7 +257,7 @@
         "identify": 5
       },
       "price": 45.5,
-      "image": "/images/IMOU Bullet 2MP WiFi.jpg"
+      "image": "images/IMOU Bullet 2MP WiFi.jpg"
     },
     {
       "id": "imou2",
@@ -271,7 +271,7 @@
         "identify": 4.5
       },
       "price": 52.8,
-      "image": "/images/IMOU Ranger 2 360° WiFi.jpg"
+      "image": "images/IMOU Ranger 2 360° WiFi.jpg"
     },
     {
       "id": "imou3",
@@ -285,7 +285,7 @@
         "identify": 7
       },
       "price": 78.9,
-      "image": "/images/IMOU Cruiser 4MP Color WiFi.jpg"
+      "image": "images/IMOU Cruiser 4MP Color WiFi.jpg"
     },
     {
       "id": "imou4",
@@ -299,7 +299,7 @@
         "identify": 4.7
       },
       "price": 41.2,
-      "image": "/images/IMOU Cell Pro 1080p WiFi.jpg"
+      "image": "images/IMOU Cell Pro 1080p WiFi.jpg"
     },
     {
       "id": "imou5",
